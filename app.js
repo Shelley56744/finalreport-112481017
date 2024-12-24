@@ -16,8 +16,8 @@ let backgroundMusic = new Audio('assets/sounds/background-music.mp3');
 backgroundMusic.loop = true; // 背景音樂循環播放
 backgroundMusic.volume = 0.5; // 設定預設音量
 
-let eatAppleSound = new Audio('assets/sounds/eat-apple.mp3'); // 吃蘋果音效
-let gameOverSound = new Audio('assets/sounds/game-over.mp3'); // 遊戲結束音效
+let eatAppleSound = new Audio('assets/eat-apple.mp3'); // 吃蘋果音效
+let gameOverSound = new Audio('assets/game-over.mp3'); // 遊戲結束音效
 
 // 音量控制滑桿
 const bgmVolumeSlider = document.getElementById('bgm-volume');
